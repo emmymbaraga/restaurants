@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title> Restaurants </title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg  navbar-dark .navbar-fixed-top navbar-custom" >
-        <div class="container-fluid navcontainer">
-          <a class="navbar-brand" href="#">Navbar
+  <title>Bar-Restaurants </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script></head>
+  <link rel="stylesheet" href="style.css">
+<body>    
+	<nav class="navbar navbar-expand-sm navbar-custom  navbar-dark bg-success fixed-top">
+	  <div class="container-fluid ">
+		<a class="navbar-brand " href="#">Bar-Restaurants</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+		  <ul class="navbar-nav ">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">About us</a>
+			</li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>		
+		  </ul>		  
+		</div>
+	  </div>
+	</nav>
+    <section class="home" id="#home">
         
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About us</a>
-              <a class="nav-link" href="#">Menu</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Contact us</a>
-              
-            </div>
-          </div>
+        <div class="hmimage">
+          <img src="./images/home.jpg" alt="">
         </div>
-      </nav>
+        <div class="hmtext">
+          <h1>Delicious Food</h1>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, laboriosam quis 
+            ius cupiditate vero magni odio nisi. Numquam incidunt eveniet tenetur error voluptatum, 
+            mollitia possimus nobis accusamus animi. Accusantium, voluptatibus.</h3>
+          <button>View Menu</button>
+        </div>                                                                                                                                                                 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      </section>
+      <!-- End of Home section -->
+
+ <!-- Start of about us section -->
+<section class="about" id="about">
+<div class="lft">
+  <h1>About us</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis optio ratione rem similique animi hic, 
+    quos in eos? Tenetur nulla inventore corrupti soluta, dolorem error tempora provident eum sequi quod.</p>
+</div>
+<div class="right">
+  <img src="./images/about_img.png" alt="">
+</div>
+</section>
+ <!-- End of about us section -->
 </body>
 </html>

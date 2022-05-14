@@ -1,12 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap');
 body{
-    font-family: poppins;
+    font-family: poppins !important;
     margin: 0;
     padding: 0;
 }
 .navbar-custom{
     display:flex;
     justify-content: space-between;
-    background-color: #011802; 
-   color: aliceblue;
+    background-color: #011802 !important; 
+    color: aliceblue;
+}
+/* .navbar-nav{
+    margin-left: 900px;  */
+    /*put the space between brand name and menu*/
+
+    /* position: absolute;
+
+width: 1440px;
+height: 75px;
+left: 0px;
+top: 0px;
+
+background: #232914; */
+/* } */
+.home .hmimage{
+    width: 100%;
+    
+    /* opacity: 0.9; */
+}
+.home {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hmtext{
+    position: absolute;
+    margin-top: 150px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bolder;
 }
