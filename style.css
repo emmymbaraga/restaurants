@@ -10,19 +10,7 @@ body{
     background-color: #011802 !important; 
     color: aliceblue;
 }
-/* .navbar-nav{
-    margin-left: 900px;  */
-    /*put the space between brand name and menu*/
 
-    /* position: absolute;
-
-width: 1440px;
-height: 75px;
-left: 0px;
-top: 0px;
-
-background: #232914; */
-/* } */
 .home .hmimage{
     width: 100%;
     
@@ -41,3 +29,128 @@ background: #232914; */
     transform: translate(-50%, -50%);
     font-weight:bolder;
 }
+.feature {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 0 0;
+}
+
+.feature .section-header {
+    margin-bottom: 30px;
+}
+
+.feature .feature-text {
+    position: relative;
+    width: 100%;
+}
+
+.feature .feature-img {
+    border-radius: 15px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.feature .feature-img .col-6,
+.feature .feature-img .col-12 {
+    padding: 0;
+    overflow: hidden;
+}
+
+.feature .feature-img img {
+    width: 100%;
+    transition: .3s;
+}
+
+.feature .feature-img img:hover {
+    transform: scale(1.1);
+}
+
+.feature .feature-text .btn {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.feature .feature-item {
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.feature .feature-item i {
+    position: relative;
+    display: block;
+    color: #719a0a;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(#719a0a, #fbaf32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature .feature-item i::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: -10px;
+    left: 20px;
+    background: #fbaf32;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.feature .feature-item h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-size: inherit;
+    margin-left: 0;
+}
+.icons-container {
+	width: 40px;
+}
+
+.social-icons {
+	font-size: 2em;
+	color: #fff;
+}
+
+.social-icons:hover {
+	color: #000;
+}
+.footer{
+    background-color: var(--blue-color);
+}
+#about,#skills,#services,#blog,#contact{
+    padding-top: 50px;
+}
+ /* Form styles */
+.formwrapper{
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    background:var(--blue-color);
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+.form{
+    /* border: 1px solid #000; */
+    margin-left: 90px;
+    /* background: #3B5998; */
+    /* max-width: fit-content; */
+}
+.pform{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+  /* end of form styles */
+  .hmimage img{
+      width: 100%;
+  }
