@@ -5,6 +5,7 @@
     --black-color:#000;
 }
 body{
+    box-sizing: border-box;
     font-family: poppins !important;
     margin: 0;
     padding: 0;
