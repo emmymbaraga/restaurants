@@ -160,3 +160,25 @@ body{
   .hmimage img{
       width: 100%;
   }
+
+  /*added style */
+.centered{
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    
+}
+.btn{
+    background-color: #fff;
+    position: relative;
+    top: 50%;
+    margin-top: 100px;
+
+}
+.left {
+    width: 50%;
+    display: block;
+}
+.right {
+    width: 50%;
+}
