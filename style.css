@@ -175,10 +175,20 @@ body{
     margin-top: 100px;
 
 }
-.left {
+.about .left {
     width: 50%;
+    float: left;
+    text-indent: 5px;
+}
+.about .right {
+    width: 50%;
+    float: right;
+   
+}
+ .about .right img {
+    width: 75%;
     display: block;
-}
-.right {
-    width: 50%;
-}
+    margin-left: auto;
+    margin-right: auto;
+
+ }
