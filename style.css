@@ -4,11 +4,17 @@
     --blue-color:#8193F1;
     --black-color:#000;
 }
-body{
+* {
     box-sizing: border-box;
-    font-family: poppins !important;
     margin: 0;
     padding: 0;
+  }
+  
+body{
+   font-family: poppins !important;
+   /* background-color: #011802;
+   color: #fff; */
+    
 }
 .navbar-custom{
     display:flex;
@@ -131,7 +137,7 @@ body{
 .footer{
     background-color:#011802 ;
 }
-#about,#skills,#services,#blog,#contact{
+#about,#menu,#skills,#services,#blog,#contact{
     padding-top: 50px;
 }
  /* Form styles */
@@ -169,7 +175,8 @@ body{
     
 }
 .btn{
-    background-color: #fff;
+    background-color: #011802;
+    color: #fff;
     position: relative;
     top: 50%;
     margin-top: 100px;
@@ -179,16 +186,68 @@ body{
     width: 50%;
     float: left;
     text-indent: 5px;
+    padding-left: 50px;
 }
 .about .right {
-    width: 50%;
+    width: 45%;
     float: right;
+    margin-left: 5px;
    
 }
  .about .right img {
     width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;    
+}
+.menu{
+    margin: 30px;
+}
+/* .imgmenu{
+    width: 75%;
+} */
 
- }
+/* Media Query */
+
+@media screen and (max-width:1119px) {
+    .hmtext{
+        position: absolute;
+        margin-top: 80px;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight:bolder;
+    }
+
+    .home .hmimage{
+        width: 100%;
+        
+        /* opacity: 0.9; */
+    }
+    .home {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    
+    /* body{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+  
+   
+    .home {
+
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .hmtext{
+          position: absolute;
+          margin-top: 50px;
+          top: 30%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-weight:bolder;
+      } */
+}
