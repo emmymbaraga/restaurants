@@ -10,11 +10,20 @@ body{
     margin: 0;
     padding: 0;
 }
+/* added styles */
+ img{
+    width:100%;
+    object-fit: cover;
+    
+ }
+ /* end of added styles */
 .navbar-custom{
     display:flex;
     justify-content: space-between;
     background-color: #011802 !important; 
     color: aliceblue;
+    /* margin-left: 10px;
+    margin-right: 10px; */
 }
 
 .home .hmimage{
@@ -22,15 +31,26 @@ body{
     
     /* opacity: 0.9; */
 }
+ /* added styles */
+ /* .btn{
+    position:relative
+
+    
+ } */
+
+ /* end of added styles */
+
+
 .home {
   position: relative;
   text-align: center;
   color: white;
+  /* margin: 10px; */
 }
 .hmtext{
     position: absolute;
-    margin-top: 150px;
-    top: 30%;
+    margin-top: 300px;
+    top: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight:bolder;
@@ -129,7 +149,9 @@ body{
 	color: #000;
 }
 .footer{
-    background-color:#011802 ;
+    background-color:#011802;
+    /* margin-left: 10px;
+    margin-right: 10px; */
 }
 #about,#skills,#services,#blog,#contact,#menu{
     padding-top: 50px;
@@ -159,6 +181,7 @@ body{
   /* end of form styles */
   .hmimage img{
       width: 100%;
+    
   }
 
   /*added style */
@@ -201,6 +224,160 @@ body{
 
  }
  .menu{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
  }
+ @media screen and (min-width:787) {
+    .hmtext{
+        position: absolute;
+        margin-top: 100px;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight:bolder;
+    }
+
+    .btn{
+        background-color: #011802;
+        color: #fff;
+        position: relative;
+        top: 30%;
+        margin-top: 100px;
+    
+    }
+      .home .hmimage{
+        width: 100%;
+        
+        /* opacity: 0.9; */
+    }
+ }
+
+ .example {
+    padding: 20px;
+    color: white;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .example {background: red;}
+    .hmtext{
+        /* position: absolute; */
+        margin-top: 50px;
+        line-height: 0.8;
+         top: 70px; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight:bolder;
+        font-size: 5rem;
+    }
+    .hmtext h3{
+        display: none;
+    }
+    .btn{
+        display: none;
+        background-color: #011802;
+        color: #fff;
+        position: relative;
+        /* top: 5%; */
+        margin-top: 5px;
+    
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+    .home {
+        position: relative;
+        text-align: center;
+        color: white;
+        
+      } 
+    .hmtext{
+        /* position: absolute; */
+        margin-top: 50px;
+        line-height: 0.6;
+         top: 70px; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight:bolder;
+        font-size: 5px;
+    }
+    .hmtext h3{
+        display: none;
+    }
+    .btn{
+        display: none;
+        background-color: #011802;
+        color: #fff;
+        position: relative;
+        top: 5%;
+        margin-top: 5px;
+    
+    }
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+    .home {
+        position: relative;
+        text-align: center;
+        color: white;
+        
+      } 
+    .hmtext{
+        /* position: absolute; */
+        margin-top: 80px;
+        line-height: 0.8;
+         top: 70px; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight:bolder;
+    }
+    .btn{
+        background-color: #011802;
+        color: #fff;
+        position: relative;
+        top: 10%;
+        margin-top: 5px;
+    
+    }
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px changed to 1040px and up) */
+  @media only screen and (min-width: 1040px) {
+    .example {background: orange;}
+
+    /* Added code for screen testing*/
+    /* .home .hmimage{
+        width: fit-content;    
+    } */
+    /* .home {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin: 10px; 
+      } */
+      .hmtext{
+          /* position: absolute; */
+          margin-top: 200px;
+          /* top: 50px; */
+          /* left: 50%;
+          transform: translate(-50%, -50%);
+          font-weight:bolder; */
+      }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+
+    /* Added code for screen testing*/
+    .home .hmimage{
+        width: fit-content;
+        
+        
+    }
+  }
